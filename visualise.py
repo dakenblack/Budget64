@@ -21,7 +21,7 @@ months = np.array(['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', '
 
 #%%
 # Selecting the month and plotting a pie graph of Categories
-month = 6
+month = 7
 year = 2019
 
 mask = (tdata['Date'].dt.year == year) & (tdata['Date'].dt.month == month)
