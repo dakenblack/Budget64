@@ -26,12 +26,13 @@ SHOPPING  = 'Shopping'
 REGULAR = 'Regular'
 NOTAG   = np.nan
 
-date = '2019-07-03'
+date = '2019-07-05'
 writeout = False
 
 #%%
 data = [
-        [date, 99.95, SHOPPING, NOTAG, 'Bag'],
+        [date, 15.99, GROCERIES, NOTAG, 'Pharmacy'],
+		[date, 20, TRANSPORT, NOTAG, 'Opal']
         ]
 
 #%%
